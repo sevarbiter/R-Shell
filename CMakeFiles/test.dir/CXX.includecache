@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csmajs/wdevo001/assignment-cs-100-wes-will/src/base.hpp
+string
+-
+iostream
+-
+string.h
+-
+cstring
+-
+sys/types.h
+-
+stdio.h
+-
+sys/wait.h
+-
+unistd.h
+-
+fstream
+-
+fcntl.h
+-
+
+/home/csmajs/wdevo001/assignment-cs-100-wes-will/src/command.cpp
+command.hpp
+/home/csmajs/wdevo001/assignment-cs-100-wes-will/src/command.hpp
+
+/home/csmajs/wdevo001/assignment-cs-100-wes-will/src/command.hpp
+base.hpp
+/home/csmajs/wdevo001/assignment-cs-100-wes-will/src/base.hpp
+
