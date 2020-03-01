@@ -3,8 +3,6 @@
 # CS 100 Programming Project
 **Winter 2019**
 
-William Montes SID: 862095355
-
 Wesley DeVore	 SID: 862081656
 
 
@@ -85,54 +83,4 @@ S_ISCHR(stat_variable.st_mode)  To check for character device.\
 S_ISBLK(stat_variable.st_mode)  To check for block device.\
 S_ISLNK(stat_variable.st_mode)  To check for symbolic link.\
 S_ISSOCK(stat_variable.st_mode) To check for socket.\
-
-
-
-# ROADMAP & ISSUES
-
-- [ ] [Create the base class](https://github.com/cs100/assignment-cs-100-wes-will/issues/4#issue-406038685)
-
-- [ ] [Create the parsing function](https://github.com/cs100/assignment-cs-100-wes-will/issues/2#issue-406038594)
-
-- [ ] [Create the command class and its compute() function](https://github.com/cs100/assignment-cs-100-wes-will/issues/6#issue-406038747)
-
-- [ ] [Test the command class compute() function](https://github.com/cs100/assignment-cs-100-wes-will/issues/7#issue-406038798)
-
-- [ ] [Create the connector class](https://github.com/cs100/assignment-cs-100-wes-will/issues/5#issue-406038698)
-
-- [ ] [Create the and class](https://github.com/cs100/assignment-cs-100-wes-will/issues/8#issue-406038829)
-
-- [ ] [Create the or class](https://github.com/cs100/assignment-cs-100-wes-will/issues/9#issue-406038852)
-
-- [ ] [Create the semiColon class](https://github.com/cs100/assignment-cs-100-wes-will/issues/10#issue-406038892)
-
-- [ ] [Test the and or and semiColon class for correct ordering](https://github.com/cs100/assignment-cs-100-wes-will/issues/11#issue-406038956)
-
-- [ ] [Create the tree that will execute base objects](https://github.com/cs100/assignment-cs-100-wes-will/issues/12#issue-406039017)
-
-- [ ] Create the parentheses decorator class
-
-- [ ] Create the test command class
-
-- [ ] Test command and parentheses
-
-- [ ] Add test and parentheses into parsing function
-
-- [ ] Test for proper parsing functionality
-
-- [ ] Create left connector class
-
-- [ ] Create right connector class
-
-- [ ] Create redirection connector class
-
-- [ ] Create pipe connector class
-
-- [ ] Add left, right, redirection, and pipe into the parsing function
-
-- [ ] Test proper parsing of new classes
-
-- [ ] Test input and output redirection
-
-- [ ] Test piping
 
